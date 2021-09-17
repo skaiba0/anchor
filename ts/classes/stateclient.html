@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>StateClient | @project-serum/anchor - v0.15.0</title>
-	<meta name="description" content="Documentation for @project-serum/anchor - v0.15.0">
+	<title>StateClient | @project-serum/anchor - v0.16.0</title>
+	<meta name="description" content="Documentation for @project-serum/anchor - v0.16.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<script async src="../assets/js/search.js" id="search-script"></script>
@@ -23,7 +23,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="../index.html" class="title">@project-serum/anchor - v0.15.0</a>
+					<a href="../index.html" class="title">@project-serum/anchor - v0.16.0</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -52,7 +52,7 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../index.html">@project-serum/anchor - v0.15.0</a>
+					<a href="../index.html">@project-serum/anchor - v0.16.0</a>
 				</li>
 				<li>
 					<a href="stateclient.html">StateClient</a>
@@ -95,7 +95,9 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="stateclient.html#coder" class="tsd-kind-icon">coder</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="stateclient.html#instruction" class="tsd-kind-icon">instruction</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="stateclient.html#provider" class="tsd-kind-icon">provider</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="stateclient.html#rpc" class="tsd-kind-icon">rpc</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="stateclient.html#transaction" class="tsd-kind-icon">transaction</a></li>
 							</ul>
@@ -103,9 +105,7 @@
 						<section class="tsd-index-section ">
 							<h3>Accessors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="stateclient.html#coder" class="tsd-kind-icon">coder</a></li>
 								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="stateclient.html#programid" class="tsd-kind-icon">program<wbr>Id</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="stateclient.html#provider" class="tsd-kind-icon">provider</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -132,7 +132,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L77">src/program/namespace/state.ts:77</a></li>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/program/namespace/state.ts#L61">src/program/namespace/state.ts:61</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -144,10 +144,10 @@
 									<h5>programId: <a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a></h5>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> provider: <a href="provider.html" class="tsd-signature-type" data-tsd-kind="Class">Provider</a></h5>
+									<h5>provider: <a href="provider.html" class="tsd-signature-type" data-tsd-kind="Class">Provider</a><span class="tsd-signature-symbol"> = ...</span></h5>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> coder: <a href="coder.html" class="tsd-signature-type" data-tsd-kind="Class">Coder</a></h5>
+									<h5>coder: <a href="coder.html" class="tsd-signature-type" data-tsd-kind="Class">Coder</a><span class="tsd-signature-symbol"> = ...</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="stateclient.html" class="tsd-signature-type" data-tsd-kind="Class">StateClient</a></h4>
@@ -158,12 +158,19 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="coder" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> coder</h3>
+					<div class="tsd-signature tsd-kind-icon">coder<span class="tsd-signature-symbol">:</span> <a href="coder.html" class="tsd-signature-type" data-tsd-kind="Class">Coder</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="instruction" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> instruction</h3>
 					<div class="tsd-signature tsd-kind-icon">instruction<span class="tsd-signature-symbol">:</span> <a href="../interfaces/instructionnamespace.html" class="tsd-signature-type" data-tsd-kind="Interface">InstructionNamespace</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L44">src/program/namespace/state.ts:44</a></li>
+							<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/program/namespace/state.ts#L44">src/program/namespace/state.ts:44</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -173,12 +180,19 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="provider" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> provider</h3>
+					<div class="tsd-signature tsd-kind-icon">provider<span class="tsd-signature-symbol">:</span> <a href="provider.html" class="tsd-signature-type" data-tsd-kind="Class">Provider</a><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="rpc" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> rpc</h3>
 					<div class="tsd-signature tsd-kind-icon">rpc<span class="tsd-signature-symbol">:</span> <a href="../interfaces/rpcnamespace.html" class="tsd-signature-type" data-tsd-kind="Interface">RpcNamespace</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L39">src/program/namespace/state.ts:39</a></li>
+							<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/program/namespace/state.ts#L39">src/program/namespace/state.ts:39</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -193,7 +207,7 @@
 					<div class="tsd-signature tsd-kind-icon">transaction<span class="tsd-signature-symbol">:</span> <a href="../interfaces/transactionnamespace.html" class="tsd-signature-type" data-tsd-kind="Interface">TransactionNamespace</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L49">src/program/namespace/state.ts:49</a></li>
+							<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/program/namespace/state.ts#L49">src/program/namespace/state.ts:49</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -206,28 +220,6 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Accessors</h2>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
-					<a name="coder" class="tsd-anchor"></a>
-					<h3>coder</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> coder<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="coder.html" class="tsd-signature-type" data-tsd-kind="Class">Coder</a></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L70">src/program/namespace/state.ts:70</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns the coder.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <a href="coder.html" class="tsd-signature-type" data-tsd-kind="Class">Coder</a></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
 					<a name="programid" class="tsd-anchor"></a>
 					<h3>program<wbr>Id</h3>
 					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
@@ -237,7 +229,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L54">src/program/namespace/state.ts:54</a></li>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/program/namespace/state.ts#L54">src/program/namespace/state.ts:54</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -246,28 +238,6 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
-					<a name="provider" class="tsd-anchor"></a>
-					<h3>provider</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> provider<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="provider.html" class="tsd-signature-type" data-tsd-kind="Class">Provider</a></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L62">src/program/namespace/state.ts:62</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns the client&#39;s wallet and network provider.</p>
-								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <a href="provider.html" class="tsd-signature-type" data-tsd-kind="Class">Provider</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -284,7 +254,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L162">src/program/namespace/state.ts:162</a></li>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/program/namespace/state.ts#L152">src/program/namespace/state.ts:152</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -306,7 +276,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L143">src/program/namespace/state.ts:143</a></li>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/program/namespace/state.ts#L131">src/program/namespace/state.ts:131</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -328,7 +298,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L170">src/program/namespace/state.ts:170</a></li>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/program/namespace/state.ts#L160">src/program/namespace/state.ts:160</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -357,7 +327,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/4451779/ts/src/program/namespace/state.ts#L196">src/program/namespace/state.ts:196</a></li>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/program/namespace/state.ts#L186">src/program/namespace/state.ts:186</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -400,10 +370,16 @@
 						<a href="eventparser.html" class="tsd-kind-icon">Event<wbr>Parser</a>
 					</li>
 					<li class=" tsd-kind-class">
+						<a href="idlerror.html" class="tsd-kind-icon">Idl<wbr>Error</a>
+					</li>
+					<li class=" tsd-kind-class">
 						<a href="instructioncoder.html" class="tsd-kind-icon">Instruction<wbr>Coder</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="program.html" class="tsd-kind-icon">Program</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="programerror.html" class="tsd-kind-icon">Program<wbr>Error</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="provider.html" class="tsd-kind-icon">Provider</a>
@@ -417,7 +393,13 @@
 								<a href="stateclient.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="stateclient.html#coder" class="tsd-kind-icon">coder</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="stateclient.html#instruction" class="tsd-kind-icon">instruction</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="stateclient.html#provider" class="tsd-kind-icon">provider</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="stateclient.html#rpc" class="tsd-kind-icon">rpc</a>
@@ -426,13 +408,7 @@
 								<a href="stateclient.html#transaction" class="tsd-kind-icon">transaction</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
-								<a href="stateclient.html#coder" class="tsd-kind-icon">coder</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
 								<a href="stateclient.html#programid" class="tsd-kind-icon">program<wbr>Id</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
-								<a href="stateclient.html#provider" class="tsd-kind-icon">provider</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="stateclient.html#address" class="tsd-kind-icon">address</a>
@@ -483,7 +459,7 @@
 					<li class=" tsd-kind-type-alias">
 						<a href="../index.html#context" class="tsd-kind-icon">Context</a>
 					</li>
-					<li class=" tsd-kind-type-alias">
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
 						<a href="../index.html#event" class="tsd-kind-icon">Event</a>
 					</li>
 					<li class=" tsd-kind-type-alias">

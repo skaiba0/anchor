@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Connection | @project-serum/anchor - v0.15.0</title>
-	<meta name="description" content="Documentation for @project-serum/anchor - v0.15.0">
+	<title>Connection | @project-serum/anchor - v0.16.0</title>
+	<meta name="description" content="Documentation for @project-serum/anchor - v0.16.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<script async src="../assets/js/search.js" id="search-script"></script>
@@ -23,7 +23,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="../index.html" class="title">@project-serum/anchor - v0.15.0</a>
+					<a href="../index.html" class="title">@project-serum/anchor - v0.16.0</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -52,7 +52,7 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../index.html">@project-serum/anchor - v0.15.0</a>
+					<a href="../index.html">@project-serum/anchor - v0.16.0</a>
 				</li>
 				<li>
 					<a href="../modules/web3.html">web3</a>
@@ -184,7 +184,7 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Connection<span class="tsd-signature-symbol">(</span>endpoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, commitmentOrConfig<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">&quot;processed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;confirmed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;finalized&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;recent&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;single&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;singleGossip&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;root&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;max&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#connectionconfig" class="tsd-signature-type" data-tsd-kind="Type alias">ConnectionConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="web3.connection.html" class="tsd-signature-type" data-tsd-kind="Class">Connection</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Connection<span class="tsd-signature-symbol">(</span>endpoint<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, commitmentOrConfig<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#connectionconfig" class="tsd-signature-type" data-tsd-kind="Type alias">ConnectionConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="web3.connection.html" class="tsd-signature-type" data-tsd-kind="Class">Connection</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -207,7 +207,7 @@
 									</div>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitmentOrConfig: <span class="tsd-signature-type">&quot;processed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;confirmed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;finalized&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;recent&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;single&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;singleGossip&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;root&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;max&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#connectionconfig" class="tsd-signature-type" data-tsd-kind="Type alias">ConnectionConfig</a></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitmentOrConfig: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#connectionconfig" class="tsd-signature-type" data-tsd-kind="Type alias">ConnectionConfig</a></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>optional default commitment level or optional ConnectionConfig configuration object</p>
 									</div>
@@ -224,7 +224,7 @@
 					<a name="commitment" class="tsd-anchor"></a>
 					<h3>commitment</h3>
 					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> commitment<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> commitment<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -238,7 +238,7 @@
 									<p>The default commitment used for requests</p>
 								</div>
 							</div>
-							<h4 class="tsd-returns-title">Returns <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -249,7 +249,7 @@
 					<a name="_buildargs" class="tsd-anchor"></a>
 					<h3>_build<wbr>Args</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">_build<wbr>Args<span class="tsd-signature-symbol">(</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span>, override<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a>, encoding<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">&quot;base64&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;jsonParsed&quot;</span>, extra<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">_build<wbr>Args<span class="tsd-signature-symbol">(</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span>, override<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a>, encoding<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">&quot;jsonParsed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;base64&quot;</span>, extra<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -267,7 +267,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> override: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h5>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> encoding: <span class="tsd-signature-type">&quot;base64&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;jsonParsed&quot;</span></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> encoding: <span class="tsd-signature-type">&quot;jsonParsed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;base64&quot;</span></h5>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> extra: <span class="tsd-signature-type">any</span></h5>
@@ -312,7 +312,7 @@
 					<a name="getaccountinfo" class="tsd-anchor"></a>
 					<h3>get<wbr>Account<wbr>Info</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Account<wbr>Info<span class="tsd-signature-symbol">(</span>publicKey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Account<wbr>Info<span class="tsd-signature-symbol">(</span>publicKey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -335,7 +335,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -343,7 +343,7 @@
 					<a name="getaccountinfoandcontext" class="tsd-anchor"></a>
 					<h3>get<wbr>Account<wbr>Info<wbr>And<wbr>Context</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Account<wbr>Info<wbr>And<wbr>Context<span class="tsd-signature-symbol">(</span>publicKey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Account<wbr>Info<wbr>And<wbr>Context<span class="tsd-signature-symbol">(</span>publicKey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -366,7 +366,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -436,7 +436,7 @@
 					<a name="getblock" class="tsd-anchor"></a>
 					<h3>get<wbr>Block</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Block<span class="tsd-signature-symbol">(</span>slot<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, opts<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#blockresponse" class="tsd-signature-type" data-tsd-kind="Type alias">BlockResponse</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Block<span class="tsd-signature-symbol">(</span>slot<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, opts<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#blockresponse" class="tsd-signature-type" data-tsd-kind="Type alias">BlockResponse</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -464,7 +464,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#blockresponse" class="tsd-signature-type" data-tsd-kind="Type alias">BlockResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#blockresponse" class="tsd-signature-type" data-tsd-kind="Type alias">BlockResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -472,7 +472,7 @@
 					<a name="getblocktime" class="tsd-anchor"></a>
 					<h3>get<wbr>Block<wbr>Time</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Block<wbr>Time<span class="tsd-signature-symbol">(</span>slot<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Block<wbr>Time<span class="tsd-signature-symbol">(</span>slot<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -492,7 +492,7 @@
 									<h5>slot: <span class="tsd-signature-type">number</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -679,7 +679,7 @@
 					<a name="getconfirmedtransaction" class="tsd-anchor"></a>
 					<h3>get<wbr>Confirmed<wbr>Transaction</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Confirmed<wbr>Transaction<span class="tsd-signature-symbol">(</span>signature<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#confirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ConfirmedTransaction</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Confirmed<wbr>Transaction<span class="tsd-signature-symbol">(</span>signature<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#confirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ConfirmedTransaction</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -702,7 +702,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#confirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ConfirmedTransaction</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#confirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ConfirmedTransaction</a><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -760,7 +760,7 @@
 					<a name="getfeecalculatorforblockhash" class="tsd-anchor"></a>
 					<h3>get<wbr>Fee<wbr>Calculator<wbr>For<wbr>Blockhash</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Fee<wbr>Calculator<wbr>For<wbr>Blockhash<span class="tsd-signature-symbol">(</span>blockhash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/web3.feecalculator.html" class="tsd-signature-type" data-tsd-kind="Interface">FeeCalculator</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Fee<wbr>Calculator<wbr>For<wbr>Blockhash<span class="tsd-signature-symbol">(</span>blockhash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/web3.feecalculator.html" class="tsd-signature-type" data-tsd-kind="Interface">FeeCalculator</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -783,7 +783,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/web3.feecalculator.html" class="tsd-signature-type" data-tsd-kind="Interface">FeeCalculator</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/web3.feecalculator.html" class="tsd-signature-type" data-tsd-kind="Interface">FeeCalculator</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -841,7 +841,7 @@
 					<a name="getinflationreward" class="tsd-anchor"></a>
 					<h3>get<wbr>Inflation<wbr>Reward</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Inflation<wbr>Reward<span class="tsd-signature-symbol">(</span>addresses<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a><span class="tsd-signature-symbol">[]</span>, epoch<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#inflationreward" class="tsd-signature-type" data-tsd-kind="Type alias">InflationReward</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Inflation<wbr>Reward<span class="tsd-signature-symbol">(</span>addresses<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a><span class="tsd-signature-symbol">[]</span>, epoch<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#inflationreward" class="tsd-signature-type" data-tsd-kind="Type alias">InflationReward</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -867,7 +867,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#inflationreward" class="tsd-signature-type" data-tsd-kind="Type alias">InflationReward</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#inflationreward" class="tsd-signature-type" data-tsd-kind="Type alias">InflationReward</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -980,7 +980,7 @@
 					<a name="getnonce" class="tsd-anchor"></a>
 					<h3>get<wbr>Nonce</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Nonce<span class="tsd-signature-symbol">(</span>nonceAccount<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="web3.nonceaccount.html" class="tsd-signature-type" data-tsd-kind="Class">NonceAccount</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Nonce<span class="tsd-signature-symbol">(</span>nonceAccount<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="web3.nonceaccount.html" class="tsd-signature-type" data-tsd-kind="Class">NonceAccount</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1003,7 +1003,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="web3.nonceaccount.html" class="tsd-signature-type" data-tsd-kind="Class">NonceAccount</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="web3.nonceaccount.html" class="tsd-signature-type" data-tsd-kind="Class">NonceAccount</a><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1011,7 +1011,7 @@
 					<a name="getnonceandcontext" class="tsd-anchor"></a>
 					<h3>get<wbr>Nonce<wbr>And<wbr>Context</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Nonce<wbr>And<wbr>Context<span class="tsd-signature-symbol">(</span>nonceAccount<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="web3.nonceaccount.html" class="tsd-signature-type" data-tsd-kind="Class">NonceAccount</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Nonce<wbr>And<wbr>Context<span class="tsd-signature-symbol">(</span>nonceAccount<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="web3.nonceaccount.html" class="tsd-signature-type" data-tsd-kind="Class">NonceAccount</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1034,7 +1034,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="web3.nonceaccount.html" class="tsd-signature-type" data-tsd-kind="Class">NonceAccount</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="web3.nonceaccount.html" class="tsd-signature-type" data-tsd-kind="Class">NonceAccount</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1042,7 +1042,7 @@
 					<a name="getparsedaccountinfo" class="tsd-anchor"></a>
 					<h3>get<wbr>Parsed<wbr>Account<wbr>Info</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Parsed<wbr>Account<wbr>Info<span class="tsd-signature-symbol">(</span>publicKey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedaccountdata" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedAccountData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Parsed<wbr>Account<wbr>Info<span class="tsd-signature-symbol">(</span>publicKey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedaccountdata" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedAccountData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1065,7 +1065,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedaccountdata" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedAccountData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedaccountdata" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedAccountData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1073,7 +1073,7 @@
 					<a name="getparsedconfirmedtransaction" class="tsd-anchor"></a>
 					<h3>get<wbr>Parsed<wbr>Confirmed<wbr>Transaction</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Parsed<wbr>Confirmed<wbr>Transaction<span class="tsd-signature-symbol">(</span>signature<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#parsedconfirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedConfirmedTransaction</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Parsed<wbr>Confirmed<wbr>Transaction<span class="tsd-signature-symbol">(</span>signature<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedconfirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedConfirmedTransaction</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1096,7 +1096,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#parsedconfirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedConfirmedTransaction</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedconfirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedConfirmedTransaction</a><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1104,7 +1104,7 @@
 					<a name="getparsedconfirmedtransactions" class="tsd-anchor"></a>
 					<h3>get<wbr>Parsed<wbr>Confirmed<wbr>Transactions</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Parsed<wbr>Confirmed<wbr>Transactions<span class="tsd-signature-symbol">(</span>signatures<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#parsedconfirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedConfirmedTransaction</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Parsed<wbr>Confirmed<wbr>Transactions<span class="tsd-signature-symbol">(</span>signatures<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span>, commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedconfirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedConfirmedTransaction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1127,7 +1127,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> commitment: <a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#parsedconfirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedConfirmedTransaction</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedconfirmedtransaction" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedConfirmedTransaction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1135,7 +1135,7 @@
 					<a name="getparsedprogramaccounts" class="tsd-anchor"></a>
 					<h3>get<wbr>Parsed<wbr>Program<wbr>Accounts</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Parsed<wbr>Program<wbr>Accounts<span class="tsd-signature-symbol">(</span>programId<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, configOrCommitment<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">&quot;processed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;confirmed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;finalized&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;recent&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;single&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;singleGossip&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;root&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;max&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#getparsedprogramaccountsconfig" class="tsd-signature-type" data-tsd-kind="Type alias">GetParsedProgramAccountsConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>account<span class="tsd-signature-symbol">: </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedaccountdata" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedAccountData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>pubkey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Parsed<wbr>Program<wbr>Accounts<span class="tsd-signature-symbol">(</span>programId<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, configOrCommitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#getparsedprogramaccountsconfig" class="tsd-signature-type" data-tsd-kind="Type alias">GetParsedProgramAccountsConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>account<span class="tsd-signature-symbol">: </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedaccountdata" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedAccountData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>pubkey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1155,7 +1155,7 @@
 									<h5>programId: <a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a></h5>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> configOrCommitment: <span class="tsd-signature-type">&quot;processed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;confirmed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;finalized&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;recent&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;single&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;singleGossip&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;root&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;max&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#getparsedprogramaccountsconfig" class="tsd-signature-type" data-tsd-kind="Type alias">GetParsedProgramAccountsConfig</a></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> configOrCommitment: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#getparsedprogramaccountsconfig" class="tsd-signature-type" data-tsd-kind="Type alias">GetParsedProgramAccountsConfig</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>account<span class="tsd-signature-symbol">: </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#parsedaccountdata" class="tsd-signature-type" data-tsd-kind="Type alias">ParsedAccountData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>pubkey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1212,7 +1212,7 @@
 					<a name="getprogramaccounts" class="tsd-anchor"></a>
 					<h3>get<wbr>Program<wbr>Accounts</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Program<wbr>Accounts<span class="tsd-signature-symbol">(</span>programId<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, configOrCommitment<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">&quot;processed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;confirmed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;finalized&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;recent&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;single&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;singleGossip&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;root&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;max&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#getprogramaccountsconfig" class="tsd-signature-type" data-tsd-kind="Type alias">GetProgramAccountsConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>account<span class="tsd-signature-symbol">: </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>pubkey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Program<wbr>Accounts<span class="tsd-signature-symbol">(</span>programId<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a>, configOrCommitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#getprogramaccountsconfig" class="tsd-signature-type" data-tsd-kind="Type alias">GetProgramAccountsConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>account<span class="tsd-signature-symbol">: </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>pubkey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1232,7 +1232,7 @@
 									<h5>programId: <a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a></h5>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> configOrCommitment: <span class="tsd-signature-type">&quot;processed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;confirmed&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;finalized&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;recent&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;single&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;singleGossip&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;root&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;max&quot;</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#getprogramaccountsconfig" class="tsd-signature-type" data-tsd-kind="Type alias">GetProgramAccountsConfig</a></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> configOrCommitment: <a href="../modules/web3.html#commitment" class="tsd-signature-type" data-tsd-kind="Type alias">Commitment</a><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#getprogramaccountsconfig" class="tsd-signature-type" data-tsd-kind="Type alias">GetProgramAccountsConfig</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>account<span class="tsd-signature-symbol">: </span><a href="../modules/web3.html#accountinfo" class="tsd-signature-type" data-tsd-kind="Type alias">AccountInfo</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">; </span>pubkey<span class="tsd-signature-symbol">: </span><a href="web3.publickey.html" class="tsd-signature-type" data-tsd-kind="Class">PublicKey</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1340,7 +1340,7 @@
 					<a name="getsignaturestatus" class="tsd-anchor"></a>
 					<h3>get<wbr>Signature<wbr>Status</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Signature<wbr>Status<span class="tsd-signature-symbol">(</span>signature<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, config<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#signaturestatusconfig" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatusConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#signaturestatus" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatus</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Signature<wbr>Status<span class="tsd-signature-symbol">(</span>signature<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, config<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#signaturestatusconfig" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatusConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#signaturestatus" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatus</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1363,7 +1363,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> config: <a href="../modules/web3.html#signaturestatusconfig" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatusConfig</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#signaturestatus" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatus</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#signaturestatus" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatus</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1371,7 +1371,7 @@
 					<a name="getsignaturestatuses" class="tsd-anchor"></a>
 					<h3>get<wbr>Signature<wbr>Statuses</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Signature<wbr>Statuses<span class="tsd-signature-symbol">(</span>signatures<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span>, config<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#signaturestatusconfig" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatusConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#signaturestatus" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatus</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Signature<wbr>Statuses<span class="tsd-signature-symbol">(</span>signatures<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span>, config<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#signaturestatusconfig" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatusConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#signaturestatus" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatus</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1394,7 +1394,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> config: <a href="../modules/web3.html#signaturestatusconfig" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatusConfig</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#signaturestatus" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatus</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#rpcresponseandcontext" class="tsd-signature-type" data-tsd-kind="Type alias">RpcResponseAndContext</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#signaturestatus" class="tsd-signature-type" data-tsd-kind="Type alias">SignatureStatus</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1725,7 +1725,7 @@
 					<a name="gettransaction" class="tsd-anchor"></a>
 					<h3>get<wbr>Transaction</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Transaction<span class="tsd-signature-symbol">(</span>signature<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, opts<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#transactionresponse" class="tsd-signature-type" data-tsd-kind="Type alias">TransactionResponse</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Transaction<span class="tsd-signature-symbol">(</span>signature<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, opts<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>commitment<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#finality" class="tsd-signature-type" data-tsd-kind="Type alias">Finality</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#transactionresponse" class="tsd-signature-type" data-tsd-kind="Type alias">TransactionResponse</a><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1753,7 +1753,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/web3.html#transactionresponse" class="tsd-signature-type" data-tsd-kind="Type alias">TransactionResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../modules/web3.html#transactionresponse" class="tsd-signature-type" data-tsd-kind="Type alias">TransactionResponse</a><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -2429,7 +2429,7 @@
 					<a name="sendrawtransaction" class="tsd-anchor"></a>
 					<h3>send<wbr>Raw<wbr>Transaction</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">send<wbr>Raw<wbr>Transaction<span class="tsd-signature-symbol">(</span>rawTransaction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Buffer</span>, options<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#sendoptions" class="tsd-signature-type" data-tsd-kind="Type alias">SendOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">send<wbr>Raw<wbr>Transaction<span class="tsd-signature-symbol">(</span>rawTransaction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Buffer</span>, options<span class="tsd-signature-symbol">?: </span><a href="../modules/web3.html#sendoptions" class="tsd-signature-type" data-tsd-kind="Type alias">SendOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -2447,7 +2447,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>rawTransaction: <span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Buffer</span></h5>
+									<h5>rawTransaction: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Buffer</span></h5>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../modules/web3.html#sendoptions" class="tsd-signature-type" data-tsd-kind="Type alias">SendOptions</a></h5>
