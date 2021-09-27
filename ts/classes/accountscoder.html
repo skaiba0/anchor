@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>AccountsCoder | @project-serum/anchor - v0.16.0</title>
-	<meta name="description" content="Documentation for @project-serum/anchor - v0.16.0">
+	<title>AccountsCoder | @project-serum/anchor - v0.16.2</title>
+	<meta name="description" content="Documentation for @project-serum/anchor - v0.16.2">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<script async src="../assets/js/search.js" id="search-script"></script>
@@ -23,7 +23,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="../index.html" class="title">@project-serum/anchor - v0.16.0</a>
+					<a href="../index.html" class="title">@project-serum/anchor - v0.16.2</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -52,13 +52,13 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../index.html">@project-serum/anchor - v0.16.0</a>
+					<a href="../index.html">@project-serum/anchor - v0.16.2</a>
 				</li>
 				<li>
 					<a href="accountscoder.html">AccountsCoder</a>
 				</li>
 			</ul>
-			<h1>Class AccountsCoder</h1>
+			<h1>Class AccountsCoder&lt;A&gt;</h1>
 		</div>
 	</div>
 </header>
@@ -71,6 +71,14 @@
 						<p>Encodes and decodes account objects.</p>
 					</div>
 				</div>
+			</section>
+			<section class="tsd-panel tsd-type-parameters">
+				<h3>Type parameters</h3>
+				<ul class="tsd-type-parameters">
+					<li>
+						<h4>A<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span> = <span class="tsd-signature-type">string</span></h4>
+					</li>
+				</ul>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
@@ -87,7 +95,7 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="accountscoder.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter"><a href="accountscoder.html#constructor" class="tsd-kind-icon">constructor</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -95,6 +103,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter"><a href="accountscoder.html#decode" class="tsd-kind-icon">decode</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter"><a href="accountscoder.html#encode" class="tsd-kind-icon">encode</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="accountscoder.html#accountdiscriminator" class="tsd-kind-icon">account<wbr>Discriminator</a></li>
 							</ul>
 						</section>
 					</div>
@@ -102,26 +111,32 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter">
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Accounts<wbr>Coder<span class="tsd-signature-symbol">(</span>idl<span class="tsd-signature-symbol">: </span><a href="../index.html#idl" class="tsd-signature-type" data-tsd-kind="Type alias">Idl</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="accountscoder.html" class="tsd-signature-type" data-tsd-kind="Class">AccountsCoder</a></li>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Accounts<wbr>Coder&lt;A&gt;<span class="tsd-signature-symbol">(</span>idl<span class="tsd-signature-symbol">: </span><a href="../index.html#idl" class="tsd-signature-type" data-tsd-kind="Type alias">Idl</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="accountscoder.html" class="tsd-signature-type" data-tsd-kind="Class">AccountsCoder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">A</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/coder/accounts.ts#L18">src/coder/accounts.ts:18</a></li>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/01665f2/ts/src/coder/accounts.ts#L18">src/coder/accounts.ts:18</a></li>
 								</ul>
 							</aside>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>A<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span> = <span class="tsd-signature-type">string</span></h4>
+								</li>
+							</ul>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>idl: <a href="../index.html#idl" class="tsd-signature-type" data-tsd-kind="Type alias">Idl</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="accountscoder.html" class="tsd-signature-type" data-tsd-kind="Class">AccountsCoder</a></h4>
+							<h4 class="tsd-returns-title">Returns <a href="accountscoder.html" class="tsd-signature-type" data-tsd-kind="Class">AccountsCoder</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">A</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -132,13 +147,13 @@
 					<a name="decode" class="tsd-anchor"></a>
 					<h3>decode</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">decode&lt;T&gt;<span class="tsd-signature-symbol">(</span>accountName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, ix<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
+						<li class="tsd-signature tsd-kind-icon">decode&lt;T&gt;<span class="tsd-signature-symbol">(</span>accountName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">A</span>, ix<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/coder/accounts.ts#L47">src/coder/accounts.ts:47</a></li>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/01665f2/ts/src/coder/accounts.ts#L44">src/coder/accounts.ts:44</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -150,7 +165,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>accountName: <span class="tsd-signature-type">string</span></h5>
+									<h5>accountName: <span class="tsd-signature-type">A</span></h5>
 								</li>
 								<li>
 									<h5>ix: <span class="tsd-signature-type">Buffer</span></h5>
@@ -164,13 +179,13 @@
 					<a name="encode" class="tsd-anchor"></a>
 					<h3>encode</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">encode&lt;T&gt;<span class="tsd-signature-symbol">(</span>accountName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, account<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">encode&lt;T&gt;<span class="tsd-signature-symbol">(</span>accountName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">A</span>, account<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/beb4aeb/ts/src/coder/accounts.ts#L32">src/coder/accounts.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/01665f2/ts/src/coder/accounts.ts#L32">src/coder/accounts.ts:32</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -182,13 +197,44 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>accountName: <span class="tsd-signature-type">string</span></h5>
+									<h5>accountName: <span class="tsd-signature-type">A</span></h5>
 								</li>
 								<li>
 									<h5>account: <span class="tsd-signature-type">T</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="accountdiscriminator" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> account<wbr>Discriminator</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">account<wbr>Discriminator<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Buffer</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/project-serum/anchor/blob/01665f2/ts/src/coder/accounts.ts#L59">src/coder/accounts.ts:59</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Calculates and returns a unique 8 byte discriminator prepended to all anchor accounts.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The name of the account to calculate the discriminator.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Buffer</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -204,15 +250,12 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-class">
-						<a href="accountclient.html" class="tsd-kind-icon">Account<wbr>Client</a>
-					</li>
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-class">
+					<li class="current tsd-kind-class tsd-has-type-parameter">
 						<a href="accountscoder.html" class="tsd-kind-icon">Accounts<wbr>Coder</a>
 						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-has-type-parameter">
 								<a href="accountscoder.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
@@ -221,103 +264,13 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
 								<a href="accountscoder.html#encode" class="tsd-kind-icon">encode</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="accountscoder.html#accountdiscriminator" class="tsd-kind-icon">account<wbr>Discriminator</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
-					<li class=" tsd-kind-class tsd-is-external">
-						<a href="bn.html" class="tsd-kind-icon">BN</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="coder.html" class="tsd-kind-icon">Coder</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="eventcoder.html" class="tsd-kind-icon">Event<wbr>Coder</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="eventparser.html" class="tsd-kind-icon">Event<wbr>Parser</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="idlerror.html" class="tsd-kind-icon">Idl<wbr>Error</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="instructioncoder.html" class="tsd-kind-icon">Instruction<wbr>Coder</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="program.html" class="tsd-kind-icon">Program</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="programerror.html" class="tsd-kind-icon">Program<wbr>Error</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="provider.html" class="tsd-kind-icon">Provider</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="stateclient.html" class="tsd-kind-icon">State<wbr>Client</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="statecoder.html" class="tsd-kind-icon">State<wbr>Coder</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="typescoder.html" class="tsd-kind-icon">Types<wbr>Coder</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="wallet.html" class="tsd-kind-icon">Wallet</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="../interfaces/accountnamespace.html" class="tsd-kind-icon">Account<wbr>Namespace</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="../interfaces/instructionnamespace.html" class="tsd-kind-icon">Instruction<wbr>Namespace</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="../interfaces/rpcnamespace.html" class="tsd-kind-icon">Rpc<wbr>Namespace</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="../interfaces/simulatenamespace.html" class="tsd-kind-icon">Simulate<wbr>Namespace</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="../interfaces/transactionnamespace.html" class="tsd-kind-icon">Transaction<wbr>Namespace</a>
-					</li>
-					<li class=" tsd-kind-type-alias">
-						<a href="../index.html#accounts" class="tsd-kind-icon">Accounts</a>
-					</li>
-					<li class=" tsd-kind-type-alias">
-						<a href="../index.html#address" class="tsd-kind-icon">Address</a>
-					</li>
-					<li class=" tsd-kind-type-alias">
-						<a href="../index.html#context" class="tsd-kind-icon">Context</a>
-					</li>
-					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
-						<a href="../index.html#event" class="tsd-kind-icon">Event</a>
-					</li>
-					<li class=" tsd-kind-type-alias">
-						<a href="../index.html#idl" class="tsd-kind-icon">Idl</a>
-					</li>
-					<li class=" tsd-kind-type-alias">
-						<a href="../index.html#instruction" class="tsd-kind-icon">Instruction</a>
-					</li>
-					<li class=" tsd-kind-type-alias">
-						<a href="../index.html#instructionfn" class="tsd-kind-icon">Instruction<wbr>Fn</a>
-					</li>
-					<li class=" tsd-kind-type-alias">
-						<a href="../index.html#rpcfn" class="tsd-kind-icon">Rpc<wbr>Fn</a>
-					</li>
-					<li class=" tsd-kind-type-alias">
-						<a href="../index.html#simulatefn" class="tsd-kind-icon">Simulate<wbr>Fn</a>
-					</li>
-					<li class=" tsd-kind-type-alias">
-						<a href="../index.html#transactionfn" class="tsd-kind-icon">Transaction<wbr>Fn</a>
-					</li>
-					<li class=" tsd-kind-variable">
-						<a href="../index.html#workspace" class="tsd-kind-icon">workspace</a>
-					</li>
-					<li class=" tsd-kind-function">
-						<a href="../index.html#getprovider" class="tsd-kind-icon">get<wbr>Provider</a>
-					</li>
-					<li class=" tsd-kind-function">
-						<a href="../index.html#setprovider" class="tsd-kind-icon">set<wbr>Provider</a>
-					</li>
 				</ul>
 			</nav>
 		</div>
